@@ -9,13 +9,12 @@
                 min-height:100%;
                 display:flex;
                 flex-direction:column;
-                
+
             }
             .wrapper {
                 flex:1;
             }
             .main-header {
-                background-color: #CCC;
                 height: 50px;
                 width: 70%;
                 padding: 5px 15%;
@@ -25,13 +24,12 @@
             }
             .footer {
                 height: 50px;
-                background-color: #CCC;
             }
             span.logo {
                 color: blue;
             }
             .copyright {
-                color: blue;
+                color: black;
                 font-weight: bold;
                 width: 100%;
                 text-align: center;
@@ -45,13 +43,13 @@
             }
             .content-top {
                 height: 180px;
-                background-color: #CCC;
+                background-color: lightcoral;
                 margin: 10px 0;
             }
 
             .content-bio {
                 position: relative;
-                background-color: #AAA;
+                background-color: darkseagreen;
                 width: 70%;
                 max-width:980px;
                 height: 180px;
@@ -76,21 +74,21 @@
             }
             .sidebar {
                 float: left;
-                background-color: #f1f1f1;
+                background-color: coral;
                 width: 25%;
                 height: 500px;
             }
 
             .main-content {
                 float: right;
-                background-color: #aaaaaa;
+                background-color: lightblue;
                 width: 71%;
                 height: 500px;
                 padding: 0 2% 0 2%;
             }
 
             .sidebar-links {
-                background-color: #f1f1f1;
+                background-color: #coral;
             }
             .sidebar-links li {
                 width: 100%;
@@ -126,8 +124,8 @@
 				height:100px;
 			}
 
-            
-            
+
+
              section.one-column {
             margin-top:30px;
         }

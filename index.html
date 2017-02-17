@@ -3,12 +3,12 @@
 <head>
     <title>My Bio</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-    
+
 </head>
 <body>
     <div class="wrapper login-page">
         <header class="main-header box-shadow">
-            <h1>Lucas Phan</h1>
+            <h1>Ulises Gutierrez</h1>
         </header>
         <section class="content-bottom one-column">
             <article class="main-content one-column">
@@ -22,27 +22,27 @@
                     <div id="error-container">
                         <p id="error-text" class="error-message"></p>
                     </div>
-                    
+
                 </div>
             </article>
         </section>
     </div>
     <footer class="footer box-shadow">
         <p class="copyright">
-            (c) Created by Lucas Phan
+            (c) Created by Ulises Gutierrez
         </p>
     </footer>
 
     <script>
         function login() {
 
-            
+
             let username = document.getElementById('username').value;
             let password = document.getElementById('password').value;
             let errorContainer = document.getElementById('error-container');
             let errorText = document.getElementById('error-text');
 
-            if(username == 'lucas' && password == 'phan') {
+            if(username == 'ulises' && password == 'gutierrez') {
                 location.href = './home/home.html';
             } else {
                 errorContainer.style.display = 'block';
